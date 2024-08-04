@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Broadpeak BkS350 Origin Packager  (version=1.12.1-28247) -->
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2024-08-04T10:56:10.717519Z" minimumUpdatePeriod="PT2S" timeShiftBufferDepth="PT2M" suggestedPresentationDelay="PT12S" maxSegmentDuration="PT3S" minBufferTime="PT2S" profiles="urn:dvb:dash:profile:dvb-dash:2014,urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014">
+  <Period id="1" start="PT0S">
+    <BaseURL>dash/</BaseURL>
+    <AdaptationSet id="1" group="1" contentType="audio" lang="en" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" initialization="Ch011-$RepresentationID$.dash" media="Ch011-$RepresentationID$-$Time$.dash">
+        <!-- 2024-08-04T10:54:13.013312Z / 1722768853 - 2024-08-04T10:56:15.018645Z -->
+        <SegmentTimeline>
+          <S t="82692904944639" d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+          <S d="96257"/>
+          <S d="96255"/>
+          <S d="95232"/>
+          <S d="96256"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio_165282_eng=164800" bandwidth="164800">
+      </Representation>
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine"/>
+    </AdaptationSet>
+    <AdaptationSet id="2" group="2" contentType="video" par="16:9" minBandwidth="289600" maxBandwidth="1801600" maxWidth="1280" maxHeight="720" segmentAlignment="true" sar="1:1" frameRate="25" mimeType="video/mp4" startWithSAP="1">
+      <SupplementalProperty schemeIdUri="urn:mpeg:mpegB:cicp:ColourPrimaries" value="5"/>
+      <SupplementalProperty schemeIdUri="urn:mpeg:mpegB:cicp:TransferCharacteristics" value="5"/>
+      <SupplementalProperty schemeIdUri="urn:mpeg:mpegB:cicp:MatrixCoefficients" value="5"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="600" initialization="Ch011-$RepresentationID$.dash" media="Ch011-$RepresentationID$-$Time$.dash">
+        <!-- 2024-08-04T10:54:15.008333Z / 1722768855 - 2024-08-04T10:56:15.008333Z -->
+        <SegmentTimeline>
+          <S t="1033661313005" d="1200" r="59"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="video=289600" bandwidth="289600" width="512" height="288" codecs="avc3.640015" scanType="progressive">
+      </Representation>
+      <Representation id="video=491200" bandwidth="491200" width="640" height="360" codecs="avc3.64001E" scanType="progressive">
+      </Representation>
+      <Representation id="video=751600" bandwidth="751600" width="768" height="432" codecs="avc3.64001E" scanType="progressive">
+      </Representation>
+      <Representation id="video=1381600" bandwidth="1381600" width="1024" height="576" codecs="avc3.64001F" scanType="progressive">
+      </Representation>
+      <Representation id="video=1801600" bandwidth="1801600" width="1280" height="720" codecs="avc3.64001F" scanType="progressive">
+      </Representation>
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine"/>
+    </AdaptationSet>
+    <AdaptationSet id="3" contentType="image" mimeType="image/jpeg">
+      <SegmentTemplate timescale="1" duration="2" media="thumbnails/Ch011-$RepresentationID$-$Number$.jpeg"/>
+      <Representation bandwidth="10000" id="thumbnail" width="160" height="120">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="1x1"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="https://time.akamai.com/?iso"/>
+</MPD>
